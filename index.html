@@ -2,17 +2,16 @@
 <html>
 <head>
 <style>
-body{background:#f4a6b8;color:#5c1a2b;font-family:Arial;text-align:center;display:flex;justify-content:center;align-items:center;height:100vh;margin:0}
-h1{font-size:3em}
-#fact{font-size:1.5em;margin:30px 0}
-button{background:#5c1a2b;color:#f4a6b8;border:none;padding:12px 25px;border-radius:8px;font-size:1.1em}
-button:hover{opacity:0.9}
+body{background:#f4a6b8;color:#5c1a2b;font-family:Arial;text-align:center;padding:40px 20px;margin:0}
+h1{font-size:2.5em;margin-bottom:30px}
+.fact{background:#5c1a2b;color:#f4a6b8;padding:15px;margin:10px auto;max-width:400px;border-radius:8px;font-size:1.3em}
 </style>
 </head>
 <body>
-<h1>Fun Fact!</h1>
-<p id="fact">Click the button to get a random fact</p>
-<button onclick="newFact()">Get New Fact</button>
-<script>
-const facts=["Octopuses have 3 hearts!","Bananas are berries.","Honey never spoils.","Flamingos = flamboyance"];
-function newFact(){document.get
+<h1>Fun Facts!</h1>
+<div class="fact">Octopuses have 3 hearts!</div>
+<div class="fact">Bananas are berries.</div>
+<div class="fact">Honey never spoils.</div>
+<div class="fact">Flamingos = flamboyance</div>
+</body>
+</html>
