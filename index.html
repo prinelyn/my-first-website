@@ -2,16 +2,72 @@
 <html>
 <head>
 <style>
-body{background:#f4a6b8;color:#5c1a2b;font-family:Arial;text-align:center;padding:40px 20px;margin:0}
-h1{font-size:2.5em;margin-bottom:30px}
-.fact{background:#5c1a2b;color:#f4a6b8;padding:15px;margin:10px auto;max-width:400px;border-radius:8px;font-size:1.3em}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+  background: linear-gradient(135deg, #fceff5 0%, #f4a6b8 100%);
+  color:#2d2d2d;
+  font-family:'Poppins', Arial, sans-serif;
+  text-align:center;
+  padding:50px 20px;
+  margin:0
+}
+
+.container{
+  max-width:600px;
+  margin:0 auto;
+  background:white;
+  padding:40px 30px;
+  border-radius:16px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.12);
+}
+
+h1{
+  font-size:2.2em;
+  font-weight:600;
+  color:#5c1a2b;
+  margin-bottom:10px
+}
+
+.subtitle{
+  font-size:1em;
+  color:#6b6b6b;
+  margin-bottom:30px
+}
+
+.emojis{
+  font-size:2.8em;
+  margin-bottom:25px
+}
+
+.fact{
+  background:#fafafa;
+  border-left:4px solid #f4a6b8;
+  color:#2d2d2d;
+  padding:16px 20px;
+  margin:12px 0;
+  border-radius:8px;
+  font-size:1.1em;
+  text-align:left;
+  transition:transform 0.2s;
+}
+
+.fact:hover{
+  transform:translateX(4px);
+}
 </style>
 </head>
 <body>
-<h1>Fun Facts!</h1>
-<div class="fact">Octopuses have 3 hearts!</div>
-<div class="fact">Bananas are berries.</div>
-<div class="fact">Honey never spoils.</div>
-<div class="fact">Flamingos = flamboyance</div>
+<div class="container">
+  <h1>Fun Facts</h1>
+  <p class="subtitle">Quick facts you probably didn’t know</p>
+  
+  <div class="emojis">🐙🍌🍯🦩</div>
+  
+  <div class="fact">🐙 Octopuses have three hearts and blue blood</div>
+  <div class="fact">🍌 Bananas are technically berries, but strawberries aren’t</div>
+  <div class="fact">🍯 Honey never spoils — archaeologists found edible honey in Egyptian tombs</div>
+  <div class="fact">🦩 Flamingos turn pink from the food they eat</div>
+</div>
 </body>
 </html>
